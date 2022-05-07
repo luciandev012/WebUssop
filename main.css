@@ -1,0 +1,106 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#brand{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.navbar{
+    background: url("img/BackgroundNav.png") !important;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+    background-color: #FF9F45;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+}
+.nav-menu{
+    padding: 10px 50px 30px 0;
+    font-weight: 500;
+}
+.page-1{
+    
+    background: url("img/page1-background.png");
+    background-position: center;
+}
+.img-left > img{
+    width: 100%;
+    margin-top: 50px;
+}
+.text-right{
+    padding-top: 100px;
+}
+.text-right button{
+    border-radius: 20px;
+    background-color: #e7b44e;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    margin-right: 20px;
+}
+.text{
+    font-size: 1.2rem;
+}
+.text-upper{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.page-2{
+    text-transform: uppercase;
+    padding-top: 50px;
+    background: url("img/page2-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.item{
+    float: left;
+    border-radius: 25px;
+    padding: 10px 60px;
+    background-color: #e7b44e;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.item p{
+    margin-bottom: 0;
+}
+.title{
+    font-weight: 650;
+    font-size: 1.2rem;
+}
+.content{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 750;
+}
+.page-2 ul{
+    clear: both;
+    list-style-type: none;
+    margin-left: 200px;
+    font-weight: 600;
+}
+#roadMap img{
+    width: 100%;
+}
+.footer{
+    background: url("img/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    height: 400px;
+    position: relative;
+}
+.footer p{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.3rem;
+    left: 43%;
+}
